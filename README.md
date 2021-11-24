@@ -6,6 +6,7 @@
   - R7000P
   - Y410P
   - R9000P
+  - MacBook Air
 
 ## 运行结果预览
 ![](Monitor_calcu_res.png)

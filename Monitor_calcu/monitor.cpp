@@ -51,18 +51,19 @@ void Monitor::show_monitor_ppi()
 	double widesize = cos_arc * monSize_cm;
 	double area = longside * widesize;
 
-	cout << "monitor's size is:[" << size << "] inch; "<< endl;
-	cout << "monitor's piexl is:[" << w_pixel << " * " << h_pixel <<"] " << endl;
-	cout << "monitor's size in cm is:[" << longside << "cm * " << widesize << "cm]" << endl;
-	cout << "monitor's area is:[" << area << "] cm^2" << endl;
+	cout << "monitor's size is:       [" << size << "] inch; "<< endl;
+	cout << "monitor's piexl is:      [" << w_pixel << " * " << h_pixel <<"] " << endl;
+	cout << "monitor's size is:       [" << fixed << setprecision(1) << longside << "cm * ";
+	cout << fixed << setprecision(1) << widesize << "cm]" << endl;
+	cout << "monitor's area is:       [" << fixed << setprecision(1) << area << "]cm^2" << endl;
 	cout << "ppi:[" << ppi <<"]" << endl;
 	
 	cout << endl;
 
-	cout << "when use 125%, logically shows:[ " << w_pixel / 1.25 << "*" << h_pixel / 1.25 << " ]" << endl;
-	cout << "when use 150%, logically shows:[ " << w_pixel / 1.50 << "*" << h_pixel / 1.50 << " ]" << endl;
-	cout << "when use 175%, logically shows:[ " << w_pixel / 1.75 << "*" << h_pixel / 1.75 << " ]" << endl;
-	cout << "when use 200%, logically shows:[ " << w_pixel / 2.00 << "*" << h_pixel / 2.00 << " ]" << endl;
+	cout << "when use 125%, logically shows: [ " << w_pixel / 1.25 << "*" << h_pixel / 1.25 << " ]" << endl;
+	cout << "when use 150%, logically shows: [ " << w_pixel / 1.50 << "*" << h_pixel / 1.50 << " ]" << endl;
+	cout << "when use 175%, logically shows: [ " << w_pixel / 1.75 << "*" << h_pixel / 1.75 << " ]" << endl;
+	cout << "when use 200%, logically shows: [ " << w_pixel / 2.00 << "*" << h_pixel / 2.00 << " ]" << endl;
 	cout << " " << endl;
 }
 

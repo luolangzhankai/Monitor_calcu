@@ -3,6 +3,8 @@
 
 #include<iostream>
 #include<cmath>
+#include <iomanip>
+
 const double inch_to_cm = 2.54;
 
 using namespace std;
