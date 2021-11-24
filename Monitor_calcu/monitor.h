@@ -1,5 +1,5 @@
 // .h for monitor.cpp
-#define welcome_word "---- Use this project to calculate you monitor for more infomation. ----"
+#define welcome_word "-----Use this project to calculate you monitor for more infomation-----"
 
 #include<iostream>
 #include<cmath>
