@@ -11,4 +11,8 @@ int main() {
 	Monitor Y410P;
 	Y410P.set_monitor("Y410P", 1600, 900, 14);
 	Y410P.show_all_info();
+
+	Monitor R9000P;
+	R9000P.set_monitor("R9000P", 2560, 1600, 16.1);
+	R9000P.show_all_info();
 }
