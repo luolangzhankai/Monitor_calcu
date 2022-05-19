@@ -64,12 +64,28 @@ void Monitor::show_monitor_ppi()
 	cout << "when use 150%, logically shows: [ " << w_pixel / 1.50 << "*" << h_pixel / 1.50 << " ]" << endl;
 	cout << "when use 175%, logically shows: [ " << w_pixel / 1.75 << "*" << h_pixel / 1.75 << " ]" << endl;
 	cout << "when use 200%, logically shows: [ " << w_pixel / 2.00 << "*" << h_pixel / 2.00 << " ]" << endl;
-	cout << " " << endl;
+	//cout << " " << endl;
 }
 
 void Monitor::show_all_info()
 {
 	show_monitor_ratio();
 	show_monitor_ppi();
-	cout << "-------------------------------------------" << endl;
+	cout << "-------------------------------------------" << endl <<endl;
+}
+
+void show_hello() {
+	cout << endl;
+	cout << "        Input num,show computer info" << endl << endl;
+}
+
+void show_table() {
+	cout << "	+-----+-----------------------+-----------+------+" << endl;
+	cout << "	| num | model                 | pixel     | size |" << endl;
+	cout << "	+-----+-----------------------+-----------+------+" << endl;
+	cout << "	|  1  | R7000P                | 1920*1080 | 15.6 |" << endl;
+	cout << "	|  2  | Y410P                 | 1920*1080 | 15.6 |" << endl;
+	cout << "	|  3  | redmibookpro15_3_2k   | 3000*2000 | 15.6 |" << endl;
+	cout << "	|  4  | Magic_book_14         | 1920*1080 | 14   |" << endl;
+	cout << "	+-----+-----------------------+-----------+------+" << endl;
 }

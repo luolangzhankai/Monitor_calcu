@@ -1,5 +1,4 @@
 // .h for monitor.cpp
-#define welcome_word "-----Use this project to calculate you monitor for more infomation-----"
 
 #include<iostream>
 #include<cmath>
@@ -22,3 +21,7 @@ private:
 	double h_pixel;
 	double size;
 };
+
+void show_hello();
+
+void show_table();
